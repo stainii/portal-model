@@ -1,14 +1,13 @@
-package be.stijnhooft.portal.model;
+package be.stijnhooft.portal.model.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NonNull;
+import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.Map;
 
 @Getter
 @AllArgsConstructor
+@ToString @EqualsAndHashCode
 public class Event {
 
     @NonNull

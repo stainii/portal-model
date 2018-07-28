@@ -104,17 +104,11 @@
         </plugins>
     </build>
 
-    <repositories>
+    <distributionManagement>
         <repository>
             <id>portal-ci-nexus-releases</id>
             <url>http://portal-ci.westeurope.cloudapp.azure.com:8081/nexus/content/repositories/releases/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
         </repository>
-    </repositories>
+    </distributionManagement>
 
 </project>

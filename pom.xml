@@ -73,6 +73,7 @@
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                     </flowInitContext>
+                    <squash>false</squash>
                 </configuration>
             </plugin>
             <plugin>

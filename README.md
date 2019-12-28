@@ -4,6 +4,7 @@
 Model for data that can be published by every module of the portal
 
 ### Release
+#### Maven release
 To release a module, this project makes use of the JGitflow plugin.
 More information can be found [here](https://gist.github.com/lemiorhan/97b4f827c08aed58a9d8).
 

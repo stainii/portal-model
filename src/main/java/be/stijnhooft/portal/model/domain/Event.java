@@ -8,7 +8,9 @@ import java.util.Map;
 
 @Getter
 @AllArgsConstructor
+@RequiredArgsConstructor
 @NoArgsConstructor
+@Builder
 @ToString @EqualsAndHashCode
 public class Event implements Serializable {
 
@@ -23,6 +25,12 @@ public class Event implements Serializable {
      */
     @NonNull
     private String flowId;
+
+    /**
+     * What does this event do with the flow? Does it start the flow, update the flow, end the flow?
+     * TODO: when doing a major breaking change, make this field @NonNull please!
+     */
+    private FlowAction flowAction;
 
     /**
      * Date and that the event has been published

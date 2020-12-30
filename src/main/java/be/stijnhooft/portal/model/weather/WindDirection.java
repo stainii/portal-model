@@ -8,5 +8,7 @@ public enum WindDirection {
     SOUTH,
     SOUTH_WEST,
     WEST,
-    NORTH_WEST
+    NORTH_WEST;
+
+    static final long serialVersionUID = 1L;
 }

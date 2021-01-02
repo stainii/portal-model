@@ -1,7 +1,7 @@
 # portal-model
 [![Build Status](https://server.stijnhooft.be/jenkins/buildStatus/icon?job=portal-model/master)](https://server.stijnhooft.be/jenkins/job/portal-model/job/master/)
 
-Model for data that can be published by every module of the portal
+Model for data that can be consumed by every module of the portal
 
 ### Release
 #### How to release
@@ -24,11 +24,11 @@ Therefore, make sure you have the following config in your Maven `settings.xml`;
 
 ````$xml
 <servers>
-		<server>
-			<id>portal-nexus-releases</id>
-			<username>your_username</username>
-            <password>*************</password>
-		</server>
-	</servers>
+    <server>
+        <id>portal-nexus-releases</id>
+        <username>your_username</username>
+        <password>*************</password>
+    </server>
+</servers>
 ````
 * portal-nexus-releases points to my personal Nexus (see `<distributionManagement>` in the project's `pom.xml`)
